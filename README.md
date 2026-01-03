@@ -124,6 +124,9 @@ DoseGuardian is an ARM LPC2148 based intelligent medication reminder system desi
 
 ---
 
+## Menu Display
+<img width="1294" height="876" alt="image" src="https://github.com/user-attachments/assets/c3bdf09a-1814-4056-984c-0805c2d07f02" />
+
 ## 🚀 Applications
 - Medication management for elderly patients  
 - Long-term treatment adherence systems  
