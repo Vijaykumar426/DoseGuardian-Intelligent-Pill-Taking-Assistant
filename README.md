@@ -186,38 +186,6 @@ When ever medicine is taken SW2 is pressed for confirmation.This screen appears 
 This screen indicates the medicine reminder status. When the scheduled medicine time is missed, and SW2 is not pressed the system displays a warning message on the LCD and activates the buzzer and LED. This ensures the user is immediately alerted and helps prevent missed doses.
 
 ---
-📁 Project Folder Structure
-├── Project_main.c.c/Project_functions.c/Project_functions.h → Main application file
-├── lcd.c / lcd.h → LCD driver
-├── lcd_defines.h → LCD commands & macros
-├── keypad.c / keypad.h → Keypad driver
-├── keypad_defines.h → Key mappings
-├── rtc.c / rtc.h → RTC driver
-├── rtc_defines.h → RTC registers & macros
-├── MD_CLK_SET.c → Time/Date/Day arrow mode logic
-├── MD_CLK_SET_2.c → Medicine scheduling logic
-├── delay_header.h → Delay prototypes
-├── def_delay.c → Delay implementation
-├── defines.h → Global macros & pin definitions
-├── types.h → Custom data types
-└── README.md → Project documentation
-
----
-
-⚙️ Functional Overview
-The system initializes LCD, RTC, keypad, buzzer, LED, and switches
-User can:
-Edit RTC time, date, and day
-Configure medicine reminder time
-RTC continuously monitors the current time
-When medicine time matches:
-Buzzer turns ON
-LED turns ON
-Alert message is displayed on LCD
-User confirms medicine intake using SW2
-Alert stops after confirmation
-
----
 
 🔄 System Working Flow
 Power ON / Reset the system
