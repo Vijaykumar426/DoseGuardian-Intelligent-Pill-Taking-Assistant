@@ -187,7 +187,7 @@ This screen indicates the medicine reminder status. When the scheduled medicine 
 
 ---
 
-🔄 System Working Flow
+🔄 System Working Flow:
 Power ON / Reset the system.
 Configure GPIO directions.
 Initialize LCD and display startup message.
