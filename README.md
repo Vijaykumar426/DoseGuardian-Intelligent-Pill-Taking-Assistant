@@ -188,19 +188,19 @@ This screen indicates the medicine reminder status. When the scheduled medicine 
 ---
 
 🔄 System Working Flow
->Power ON / Reset the system
->Configure GPIO directions
->Initialize LCD and display startup message
->Initialize RTC
->Initialize keypad and switches
->User enters menu using SW1
->User sets RTC and medicine time
->System continuously checks RTC time
->On time match:
->Buzzer and LED are activated
->Alert message is displayed
->User presses SW2 after taking medicine
->Alert stops and system returns to monitoring mode
+Power ON / Reset the system
+Configure GPIO directions
+Initialize LCD and display startup message
+Initialize RTC
+Initialize keypad and switches
+User enters menu using SW1
+User sets RTC and medicine time
+System continuously checks RTC time
+On time match:
+Buzzer and LED are activated
+Alert message is displayed
+User presses SW2 after taking medicine
+Alert stops and system returns to monitoring mode
 
 ---
 
