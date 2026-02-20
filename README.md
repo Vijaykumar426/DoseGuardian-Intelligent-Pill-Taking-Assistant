@@ -222,7 +222,7 @@ It is especially useful for elderly patients and individuals who require timely 
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Enhancements 
 - 📱 GSM / IoT based notifications  
 - 🧠 Mobile app integration  
 - 🔋 Battery backup support  
